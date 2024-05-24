@@ -1,0 +1,51 @@
+<igx-navbar class="navbar">
+  <igx-navbar-title class="navbar-content">
+    <igx-avatar src="/assets/WhatsApp Image 2024-05-16 at 12.43.28 PM.jpeg" class="avatar"></igx-avatar>
+    <p routerLink="/master-view" class="text">
+      Hospital Management eXpert
+    </p>
+    <a href="https://www.google.com/" target="_blank" class="ig-typography__body-1 hyperlink">
+      Need Help ?
+    </a>
+    <h5 class="h5">
+      Login
+    </h5>
+  </igx-navbar-title>
+</igx-navbar>
+<igx-input-group type="border" class="input">
+  <igx-prefix>
+    <igx-icon family="imx-icon" name="imx-hospital" class="icon"></igx-icon>
+  </igx-prefix>
+  <input type="number" [required]="true" igxInput />
+  <label igxLabel>Hospital Code</label>
+</igx-input-group>
+<igx-input-group type="border" class="input_1">
+  <igx-prefix>
+    <igx-icon class="icon">
+      person
+    </igx-icon>
+  </igx-prefix>
+  <input type="text" [required]="true" igxInput />
+  <label igxLabel>Username</label>
+</igx-input-group>
+<igx-input-group type="border" class="input_2">
+  <igx-prefix>
+    <igx-icon class="icon">
+      lock_open
+    </igx-icon>
+  </igx-prefix>
+  <input type="password" [required]="true" igxInput />
+  <label igxLabel>Password</label>
+</igx-input-group>
+<igx-checkbox labelPosition="after" class="checkbox">
+  Remember me
+</igx-checkbox>
+<a target="_blank" class="ig-typography__body-1 hyperlink_1">
+  Forget Password
+</a>
+<button igxButton="contained" igxRipple class="button">
+  Login Now
+</button>
+<p class="text_1">
+  &#64; Copyright 2024 - All rights reserved | Hospital Management eXpet
+</p>
